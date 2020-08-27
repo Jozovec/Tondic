@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 469c24fdb3bd6431b92cc1465bd9166b, type: 3}
+  m_Name: RemoteConfigDataStoreAsset
+  m_EditorClassIdentifier: 
+  rsKeyList:
+  - metadata:
+      entityId: 32987f22-8dfa-4c28-b671-b42a8bb691ff
+    rs:
+      key: TimeBetweenAds
+      type: float
+      value: 300
+  - metadata:
+      entityId: 19bc1907-6894-4667-85ce-cb2793770a29
+    rs:
+      key: LogTitle
+      type: string
+      value: Tondic v04
+  - metadata:
+      entityId: 5bdd87a6-8956-47d8-938a-02cbb0b3da8c
+    rs:
+      key: LogText
+      type: string
+      value: Added log for development purposes\nAdded console for development purposes\nUpdated
+        and unified icons\nAdded screen autorotate in landscape mode
+  rsLastCachedKeyList:
+  - metadata:
+      entityId: 32987f22-8dfa-4c28-b671-b42a8bb691ff
+    rs:
+      key: TimeBetweenAds
+      type: float
+      value: 300.000000
+  - metadata:
+      entityId: 19bc1907-6894-4667-85ce-cb2793770a29
+    rs:
+      key: LogTitle
+      type: string
+      value: Tondic v04
+  - metadata:
+      entityId: 5bdd87a6-8956-47d8-938a-02cbb0b3da8c
+    rs:
+      key: LogText
+      type: string
+      value: Added log for development purposes\nAdded console for development purposes\nUpdated
+        and unified icons\nAdded screen autorotate in landscape mode
+  configId: bc78f9ed-afc4-4283-bac3-062fda4eda09
+  currentEnvironmentId: 15bae8f8-c692-4db1-8b96-18a5d0371f2f
+  environments:
+  - id: 15bae8f8-c692-4db1-8b96-18a5d0371f2f
+    appId: 
+    name: Release (Default)
+    description: 
+    createdAt: 2020-06-25T11:34:56Z
+    updatedAt: 2020-06-25T11:34:56Z
+  - id: 742911c1-6dc7-49a6-857d-2bc9aeb71090
+    appId: 
+    name: Development
+    description: 
+    createdAt: 2020-06-25T11:34:56Z
+    updatedAt: 2020-06-25T11:34:56Z
+  rulesList: []
+  lastCachedRulesList: []
+  addedRulesIDs: []
+  updatedRulesIDs: []
+  deletedRulesIDs: []
